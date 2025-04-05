@@ -1,0 +1,40 @@
+
+/* Markdown内容增强样式 */
+.markdown-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.markdown-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.markdown-content th, 
+.markdown-content td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.markdown-content code {
+    background: #f4f4f4;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: Monaco, Consolas, monospace;
+}
+
+.markdown-content pre {
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+}
+
+.markdown-content pre code {
+    background: none;
+    padding: 0;
+}
